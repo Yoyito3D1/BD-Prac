@@ -1,0 +1,1 @@
+SELECT P.nom  FROM empleats P INNER JOIN ordinaris O ON O.num_pass=P.num_pass INNER JOIN assignacions A ON A.empl_ord=O.num_pass AND A.zona IN ( SELECT ZB.codi FROM zonesbiocontencio ZB INNER JOIN laboratoris L ON ZB.codiLab=L.codi WHERE L.nom LIKE 'BCN-_');

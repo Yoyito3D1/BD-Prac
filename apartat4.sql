@@ -1,0 +1,1 @@
+SELECT A.nom FROM empleats A INNER JOIN ordinaris B ON B.num_pass=A.num_pass WHERE B.num_pass NOT IN ( SELECT B.empl_ord FROM assignacions B INNER JOIN zonesbiocontencio ZB ON B.zona=ZB.codi WHERE ZB.nivell = 'A');

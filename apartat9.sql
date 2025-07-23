@@ -1,0 +1,1 @@
+update zonesbiocontencio set nivell='A' where codi in (select zona from armesbiologiques where  potencial > 5);

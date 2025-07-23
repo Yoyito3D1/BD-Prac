@@ -1,0 +1,1 @@
+SELECT A.codi , A.nom FROM laboratoris A, zonesBiocontencio ZB WHERE A.codi = ZB.codiLab AND ZB.nivell='A' ORDER BY A.nom ASC ;
