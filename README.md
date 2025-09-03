@@ -1,4 +1,4 @@
-# 🧬 SQL Practice – Bio-Containment Management
+# 🧬 Bio-Containment Management (SQL)
 
 This repository contains a collection of SQL queries created for a university project focused on managing laboratories, employees, and bio-containment zones. The goal is to practice relational database skills through complex queries and view creation.
 
