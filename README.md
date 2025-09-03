@@ -1,42 +1,33 @@
-# 🧬 Pràctica SQL – Gestió de Bio-Contenció
+# 🧬 SQL Practice – Bio-Containment Management
 
-Aquest repositori conté una col·lecció de consultes SQL creades per a una pràctica universitària centrada en la gestió de laboratoris, empleats i zones de bio-contenció. L'objectiu és posar en pràctica coneixements de bases de dades relacionals mitjançant consultes complexes i creació de vistes.
+This repository contains a collection of SQL queries created for a university project focused on managing laboratories, employees, and bio-containment zones. The goal is to practice relational database skills through complex queries and view creation.
 
-## 🗃️ Descripció del projecte
+## 🗃️ Project Description
+The project simulates a database that includes:
 
-El projecte simula una base de dades que inclou:
+- Employees (regular and qualified)  
+- Bio-containment zones with different security levels  
+- Employee assignments to zones  
+- Laboratories and biological agents  
 
-- Empleats (ordinaris i qualificats)
-- Zones de bio-contenció amb diferents nivells de seguretat
-- Assignacions d’empleats a zones
-- Laboratoris i armes biològiques
+Using various SQL queries, it is possible to generate useful reports such as:
 
-Mitjançant diverses consultes SQL, es poden obtenir informes útils com ara:
-- Zones amb armes perilloses
-- Empleats responsables o actualment assignats
-- Empleats ordinaris no exposats a zones de nivell alt
-- Zones amb molta presència de qualificats
+- Zones with dangerous agents  
+- Responsible or currently assigned employees  
+- Regular employees not exposed to high-level zones  
+- Zones with high presence of qualified personnel  
 
-## 💡 Tecnologies
+## 💡 Technologies
+- Standard SQL  
+- RDBMS: MySQL or compatible  
 
-- SQL estàndard
-- SGBD: MySQL o compatible
+## 🧪 Main Content
+- Queries using `UPDATE`, `SELECT`, `JOIN`, `GROUP BY`, `HAVING`, `UNION`  
+- View creation with `CREATE VIEW`  
+- Subqueries using `IN`, `NOT IN`  
 
-## 🧪 Contingut principal
-
-- Consultes amb `UPDATE`, `SELECT`, `JOIN`, `GROUP BY`, `HAVING`, `UNION`
-- Creació de vistes (`CREATE VIEW`)
-- Subconsultes amb `IN`, `NOT IN`
-
-## 📁 Fitxers
-
-- `consultes.sql`: arxiu principal amb totes les consultes
+## 📁 Files
+- `consultes.sql`: main file containing all queries  
 
 ## 📝 Notes
-
-Aquest projecte forma part d'una pràctica de l'assignatura de Bases de Dades. No inclou les definicions de taules, però les consultes assumeixen una estructura coherent i normalitzada de dades.
-
-## 👤 Autor
-
-Elaborat per [@Yoyito3D1](https://github.com/Yoyito3D1) com a pràctica acadèmica.
-
+This project is part of a university database course practice. It does not include table definitions, but the queries assume a coherent and normalized data structure.
